@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" href="img/head.jpg">
+  <title>Toss Time</title>
+</head>
+<body>
+    <div style="background: url('bg.jpg');background-size: cover;" class="h-screen w-full flex items-center justify-center bg-black">
+        <div id="coin" class="h-[230px] w-[230px] bg-blue-400 rounded-full border border-white border-2 flex justify-center items-center">
+            <div class="absolute">
+                <img id="img" src="img/head.jpg" class="h-[220px] rounded-full" alt="" srcset="">
+            </div>
+            <p id="decision" style="font-size: 150px;" class="text-black absolute ">H</p>
+
+            <button id="toss" class="bg-blue-500 text-white px-4 py-2 rounded absolute bottom-[80px]">Toss</button>
+
+        </div>
+    </div>  
+    <script src="js/main.js"></script>
+</body>
+</html>
